@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swathi Portfolio</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f7fc;
+            color:#222;
+        }
+
+        header{
+            background:#0b3d91;
+            color:white;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        header h1{
+            font-size:50px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:22px;
+        }
+
+        section{
+            padding:40px 10%;
+        }
+
+        h2{
+            color:#0b3d91;
+            margin-bottom:20px;
+            border-bottom:3px solid #0b3d91;
+            display:inline-block;
+            padding-bottom:5px;
+        }
+
+        .about p{
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        .skills ul{
+            list-style:none;
+            display:flex;
+            flex-wrap:wrap;
+            gap:15px;
+        }
+
+        .skills li{
+            background:#0b3d91;
+            color:white;
+            padding:10px 20px;
+            border-radius:20px;
+        }
+
+        .projects .card{
+            background:white;
+            padding:20px;
+            margin-top:20px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .projects h3{
+            margin-bottom:10px;
+            color:#0b3d91;
+        }
+
+        .education p,
+        .contact p{
+            margin:10px 0;
+            font-size:18px;
+        }
+
+        .contact i{
+            color:#0b3d91;
+            margin-right:10px;
+        }
+
+        footer{
+            background:#0b3d91;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+
+        @media(max-width:768px){
+            header h1{
+                font-size:35px;
+            }
+
+            .skills ul{
+                flex-direction:column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SWATHI</h1>
+        <p>ECE Student | Future Software Developer</p>
+    </header>
+
+    <section class="about">
+        <h2>ABOUT ME</h2>
+        <p>
+            I'm Swathi, a 3rd-year Electronics and Communication Engineering student
+            with a strong interest in software development and technology.
+            I'm passionate about problem-solving, learning new programming skills,
+            and building innovative solutions.
+        </p>
+    </section>
+
+    <section class="skills">
+        <h2>SKILLS</h2>
+
+        <ul>
+            <li>C Programming</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>PROJECTS</h2>
+
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>
+                Created a personal portfolio website using HTML and CSS
+                to showcase skills and education details.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Resume Builder</h3>
+            <p>
+                Developed a beginner-friendly resume builder project
+                using HTML, CSS, and JavaScript.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>To-Do List App</h3>
+            <p>
+                Designed a simple task management application
+                for adding and removing daily tasks.
+            </p>
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>EDUCATION</h2>
+
+        <p><strong>AIHT Engineering College</strong></p>
+        <p>B.E Electronics and Communication Engineering</p>
+        <p>2024 - 2028</p>
+    </section>
+
+    <section class="contact">
+        <h2>CONTACT</h2>
+
+        <p><i class="fa-solid fa-phone"></i> 8015959836</p>
+        <p><i class="fa-solid fa-envelope"></i> swathikumar.2028@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Swathi | Portfolio Website</p>
+    </footer>
+
+</body>
+</html>
